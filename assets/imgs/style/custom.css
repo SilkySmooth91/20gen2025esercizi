@@ -45,8 +45,31 @@ form > .dropdown > button > img {
     font-size: 1rem;
 }
 
+.bi-text-left::before {
+    content: "\F5C7";
+    font-family: "Feather";
+    font-size: 1.5rem;
+    color: white;
+    border: 1px solid white;
+    padding: 0.3rem;
+    width: 3rem;
+    text-align: center;
+}
+
+.bi-grid::before {
+    content: "\F3FB";
+    font-family: "Feather";
+    font-size: 1.5rem;
+    color: white;
+    border: 1px solid white;
+    padding: 0.3rem;
+    width: 3rem;
+    text-align: center;
+}
+
 #mega-container > .container-xxl > .row button {
     background-color: #000000;
     border: 1px solid white;
     color: white;
 }
+

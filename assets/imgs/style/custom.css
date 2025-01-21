@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+.text-white-50:hover {
+    color: rgba(255, 255, 255, 0.77) !important
+}
+
+.navbar-brand > img {
+    max-width: 6.5rem;
+    max-height: auto;
+}
+
+.navbar-toggler {
+    color: white !important;
+}
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+nav form * {
+    color: white;
+}
+
+form {
+    gap: 0.8rem;
+}
+
+form > .dropdown > button {
+    color: white;
+    padding-left: 0;
+}
+
+form > .dropdown > button > img {
+    max-width: 1.5rem;
+    max-height: auto;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -160%;
+}
+
+.bi-search-fill::before {
+    content: "\F52A";
+    font-family: "Feather";
+    font-size: 1rem;
+}
+
+#mega-container > .container-xxl > .row button {
+    background-color: #000000;
+    border: 1px solid white;
+    color: white;
+}

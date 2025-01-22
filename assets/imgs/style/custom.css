@@ -48,10 +48,10 @@ form > .dropdown > button > img {
 .bi-text-left::before {
     content: "\F5C7";
     font-family: "Feather";
-    font-size: 1.5rem;
-    color: white;
-    border: 1px solid white;
-    padding: 0.3rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.941);
+    border: 1px solid rgba(255, 255, 255, 0.941);
+    padding: 0.6rem;
     width: 3rem;
     text-align: center;
 }
@@ -59,10 +59,10 @@ form > .dropdown > button > img {
 .bi-grid::before {
     content: "\F3FB";
     font-family: "Feather";
-    font-size: 1.5rem;
-    color: white;
-    border: 1px solid white;
-    padding: 0.3rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.613);
+    border: 1px solid rgba(255, 255, 255, 0.613);
+    padding: 0.6rem;
     width: 3rem;
     text-align: center;
 }
@@ -73,3 +73,23 @@ form > .dropdown > button > img {
     color: white;
 }
 
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    border: 2px solid red;
+    width: 3.5rem;
+    position: absolute;
+    background-color: #00000067;
+}
+
+.carousel-control-next {
+    right: -4.8%;
+}
+
+@media screen and (max-width: 1399px) {
+    .carousel-control-next {
+        right: -2%;
+    }
+}

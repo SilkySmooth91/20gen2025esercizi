@@ -73,23 +73,31 @@ form > .dropdown > button > img {
     color: white;
 }
 
+.row {
+    flex-wrap: nowrap;
+}
+
+.carousel-item {
+    width: 95%;
+}
+
 .carousel-item img {
     width: 100%;
 }
 
 .carousel-control-prev, .carousel-control-next {
     border: 2px solid red;
-    width: 3.5rem;
+    width: 5rem;
     position: absolute;
     background-color: #00000067;
 }
 
 .carousel-control-next {
-    right: -4.8%;
+    right: -1.1%;
 }
 
 @media screen and (max-width: 1399px) {
     .carousel-control-next {
-        right: -2%;
+        right: -4%;
     }
 }

@@ -143,10 +143,48 @@ form > .dropdown > button > img {
     font-size: small;
 }
 
-.row-cols-auto {
+#service {
     border: 1px solid #595858;
     font-size: small;
     max-width: 6rem;
     text-align: center;
     padding: 0.3rem;
+}
+
+.row-cols-auto:last-of-type {
+    font-size: 0.6rem;
+}
+
+@keyframes slide-from-bottom {
+    from {
+        transform: translateY(300%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5%;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#trending {
+    animation: 0.8s linear 0s 1 slide-from-bottom;
+    animation-fill-mode: forwards;
+}
+
+#watch-again {
+    animation: 1s linear .3s 1 slide-from-bottom;
+    animation-fill-mode: forwards;
+}
+
+#new-releases{
+    animation: 1s linear .6s 1 slide-from-bottom;
+    animation-fill-mode: forwards;
+}
+
+#trending, #watch-again, #new-releases {
+    opacity: 0;
+    
 }

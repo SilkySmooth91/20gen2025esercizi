@@ -44,7 +44,7 @@ form > .dropdown > button > img {
 }
 
 .dropdown-menu[data-bs-popper] {
-    left: -160%;
+    left: -200%;
 }
 
 .bi-search-fill::before {
@@ -124,6 +124,7 @@ form > .dropdown > button > img {
 .carousel-item.active > .row > div:not(.next-preview):hover {
     transform: scale(1.3);
     z-index: 10;
+    cursor: pointer;
 }
 
 #new-releases {
@@ -155,7 +156,7 @@ form > .dropdown > button > img {
     font-size: 0.6rem;
 }
 
-@keyframes slide-from-bottom {
+/*@keyframes slide-from-bottom {
     from {
         transform: translateY(300%);
         opacity: 0;
@@ -187,4 +188,9 @@ form > .dropdown > button > img {
 #trending, #watch-again, #new-releases {
     opacity: 0;
     
+} */
+
+#trending, #watch-again, #new-releases {
+    transition: 0.4s;
 }
+
